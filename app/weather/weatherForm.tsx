@@ -11,7 +11,7 @@ function WeatherForm({setData}){
         reset,
         register,
         formState,// function to register input fields
-        formState: { errors, isSubmitSuccessful }, // object containing any validation errors in the form
+        formState: { errors}, // object containing any validation errors in the form
         handleSubmit, // function to handle form submission
     } = useForm();
 
